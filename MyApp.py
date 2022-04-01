@@ -7,12 +7,20 @@ st.write ("ES VERDAD O FALSO", click)
 if click== True:
     st.image("images.png")
 
+With st.sidebar:
+
 num1 = st.slider('Elige un Numero', 0, 200, 25)
 num2 = st.slider('Elige un Numero 2', 0, 200, 25)
+
 
 Suma = num1+num2
 
 st.write("La suma de",num1," y  ",num2,"es :",Suma)
+
+
+st.write("Multiplicamos")
+nn1 = st.number_input("Dame n1")
+nn2 = st.number_input("Dame n2")
 
 
 #st.button ("Seccion 1")
