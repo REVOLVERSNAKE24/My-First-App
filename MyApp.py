@@ -7,6 +7,12 @@ st.write ("ES VERDAD O FALSO", click)
 if click== True:
     st.image("images.png")
 
+num1 = st.slider('Elige un Numero', 0, 200, 25)
+num2 = st.slider('Elige un Numero', 0, 200, 25)
+
+Suma = num1+num2
+st.write("I'm ", age, 'years old')
+
 #st.button ("Seccion 1")
 
 # Estas Lienas fueron para agregar una hoja de calculo y un mapa con datos represntados en puntos y una tabla
@@ -19,7 +25,7 @@ if click== True:
 
 
 #Estos Comandos Sirven Para Dar Estilo A La Escritura Que Demos A La Aplicacion Web!!!
-#st.text ("Hello World")
-#st.latex (" \int_1^2")
-#st.markdown ("#titulo")
-#st.markdown ("Ayala Valois **_Luis_ Emmanuel.**")
+st.text ("Hello World")
+st.latex (" \int_1^2")
+st.markdown ("#titulo")
+st.markdown ("Ayala Valois **_Luis_ Emmanuel.**")
