@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 st.title("My First App")
-#st.button ("Inicio")  
+click = st.button ("Inicio") 
+ 
 #st.button ("Seccion 1")
 
 # Estas Lienas fueron para agregar una hoja de calculo y un mapa con datos represntados en puntos y una tabla
