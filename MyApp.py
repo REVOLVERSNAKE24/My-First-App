@@ -8,7 +8,7 @@ if click== True:
     st.image("images.png")
 
 num1 = st.slider('Elige un Numero', 0, 200, 25)
-num2 = st.slider('Elige un Numero', 0, 200, 25)
+num2 = st.slider('Elige un Numero 2', 0, 200, 25)
 
 Suma = num1+num2
 
