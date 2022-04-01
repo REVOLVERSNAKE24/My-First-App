@@ -13,4 +13,4 @@ st.title("My First App")
 #st.map(df)
 
 st.text ("Hello World")
-st.latex (" \int")
+st.latex (" \int_1^2")
