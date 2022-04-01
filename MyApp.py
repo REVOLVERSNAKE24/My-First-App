@@ -11,7 +11,7 @@ with st.sidebar:
 num1 = st.slider('Elige un Numero', 0, 200, 25)
 num2 = st.slider('Elige un Numero 2', 0, 200, 25)
 Suma = num1+num2
-
+st.[num1, num2, Suma]
 st.write("La suma de",num1," y  ",num2,"es :",Suma)
 
 
