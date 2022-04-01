@@ -7,7 +7,7 @@ st.write ("ES VERDAD O FALSO", click)
 if click== True:
     st.image("images.png")
 
-With st.sidebar:
+with st.sidebar:
 
 num1 = st.slider('Elige un Numero', 0, 200, 25)
 num2 = st.slider('Elige un Numero 2', 0, 200, 25)
