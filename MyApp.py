@@ -11,6 +11,8 @@ num1 = st.slider('Elige un Numero', 0, 200, 25)
 num2 = st.slider('Elige un Numero', 0, 200, 25)
 
 Suma = num1+num2
+
+st.wriete("La suma de ",num1, "y",num2,"es:",suma)
 st.write("I'm ", age, 'years old')
 
 #st.button ("Seccion 1")
