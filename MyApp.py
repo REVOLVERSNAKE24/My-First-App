@@ -4,8 +4,12 @@ st.title("My First App")
 #st.button ("Inicio")  
 #st.button ("Seccion 1")
 
-df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
+# Estas Lienas fueron para agregar una hoja de calculo y un mapa con datos represntados en puntos y una tabla
 
-st.write(df)
+#df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
 
-st.map(df)
+#st.write(df)
+
+#st.map(df)
+
+st.write (Hello World)
