@@ -12,8 +12,8 @@ num2 = st.slider('Elige un Numero 2', 0, 200, 25)
 
 Suma = num1+num2
 
-st.write("La suma de ", num1, " y  ", num2,"es :",suma)
-st.write("I'm ", age, 'years old')
+st.write("La suma de ",num1," y  ",num2,"es :",suma)
+
 
 #st.button ("Seccion 1")
 
