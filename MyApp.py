@@ -6,6 +6,7 @@ st.write ("ES VERDAD O FALSO", click)
 
 if click== True:
     st.image("images.png")
+
 #st.button ("Seccion 1")
 
 # Estas Lienas fueron para agregar una hoja de calculo y un mapa con datos represntados en puntos y una tabla
@@ -16,7 +17,9 @@ if click== True:
 
 #st.map(df)
 
-st.text ("Hello World")
-st.latex (" \int_1^2")
-st.markdown ("#titulo")
-st.markdown ("Ayala Valois **_Luis_ Emmanuel.**")
+
+#Estos Comandos Sirven Para Dar Estilo A La Escritura Que Demos A La Aplicacion Web!!!
+#st.text ("Hello World")
+#st.latex (" \int_1^2")
+#st.markdown ("#titulo")
+#st.markdown ("Ayala Valois **_Luis_ Emmanuel.**")
