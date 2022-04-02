@@ -19,6 +19,8 @@ st.write("Multiplicamos")
 nn1 = st.number_input("Dame n1")
 nn2 = st.number_input("Dame n2")
 
+multi = nn1*nn2 
+st.write ("La Multiplicacion es",nn1," y ",nn2,"es :",multi)
 
 #st.button ("Seccion 1")
 
