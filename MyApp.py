@@ -22,6 +22,11 @@ nn2 = st.number_input("Dame n2")
 multi = nn1*nn2 
 st.write ("La Multiplicacion es",nn1," y ",nn2,"es :",multi)
 
+video_file = open('Wish I Was Younger.mp4', 'rb')
+video_bytes = video_file.read()
+
+st.video(video_bytes)
+
 #st.button ("Seccion 1")
 
 # Estas Lienas fueron para agregar una hoja de calculo y un mapa con datos represntados en puntos y una tabla
